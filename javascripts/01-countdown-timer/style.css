@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Assistant&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("./white.jpg");
+    background-position: center center;    
+    font-family: 'Assistant', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 14em;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+#container .column {
+    width: 110px;
+    text-align: center;
+
+}
+
+#container .column div:first-of-type{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#container .column div:nth-of-type(2){
+    font-size: 22px;
+}
+
+#container .column div {
+    margin: auto;
+}
