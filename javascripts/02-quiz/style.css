@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Lato, serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #F3F3FB;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card{
+    border-radius: 5px;
+    box-shadow: 0 0 12px #ddd;
+    overflow:hidden;
+    background-color: white;
+    width: 400px;
+}
+#question{
+    padding: 40px 40px 20px 40px;
+    font-weight: 700;
+} 
+#choices {
+    padding: 10px 10px 20px 36px;
+    font-size:14px;
+}
+.choice{
+    margin-bottom:12px;
+    vertical-align: middle;
+}
+input[type='radio']{
+    margin-top: -4px;
+    vertical-align: middle;
+}
+button{
+    width: 100%;
+    background-color: #4370E7;
+    padding: 13px;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+}

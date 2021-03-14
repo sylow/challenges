@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src='application.js'></script>
+    <title>02-Quiz</title>
+</head>
+<body onload='getNextQuestion();'>
+    <div id="card">
+        <div id="question">
+            How would you like premium help?
+        </div>
+        <div id="choices">
+            <div class="choice">
+                <input type="radio" name="radio">To job search with confidence
+            </div>
+            <div class="choice">
+                <input type="radio" name="radio">To job search with confidence
+            </div>
+            <div class="choice">
+                <input type="radio" name="radio">To job search with confidence
+            </div>
+        </div>
+        <button onClick='nextQuestion()' id='next-question'>Next Question</button>
+    </div>
+</body>
+</html>
